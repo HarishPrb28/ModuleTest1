@@ -46,7 +46,21 @@ th.style-cols {
   display: flex;
   gap: 2rem;
 }
-
+td a:nth-child(1):hover {
+  color: #0b9b0b;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+td a:nth-child(2):hover {
+  color: #9b580b;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+td a:nth-child(3):hover {
+  color: #be1e09;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
 footer {
   background-color: #2d2d30;
   color: #f5f5f5;
