@@ -54,7 +54,10 @@ footer {
 a.navbar-brand {
   display: none;
 }
-
+form {
+  display: flex;
+  flex-direction: row;
+}
 @media screen and (max-width: 968px) {
   th.style-cols {
     width: 25%;
@@ -69,5 +72,9 @@ a.navbar-brand {
 
   a.navbar-brand {
     display: block;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
   }
 }
